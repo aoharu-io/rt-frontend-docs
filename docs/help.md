@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# RT Document - help
+# help
 
 ## 概要
 
