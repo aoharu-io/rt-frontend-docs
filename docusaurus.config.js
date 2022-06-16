@@ -71,6 +71,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://rext.dev',
+            label: 'Webpage',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/RextTeam/rt-docs',
             label: 'GitHub',
             position: 'right',
