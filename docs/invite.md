@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# RT Document - invite
+# invite
 
 ## 導入サイト
 
