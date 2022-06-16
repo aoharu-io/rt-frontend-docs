@@ -23,7 +23,7 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'ja',
     locales: ['en', 'ja'],
   },
 
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'RT Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'RT Logo',
           src: 'img/rt.png',
         },
         items: [
@@ -71,10 +71,15 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/RextTeam/rt-docs',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://discord.gg/sgFjMjdnR9',
+            label: 'Discord',
+            position: 'right',
+          }
         ],
       },
       footer: {
@@ -93,16 +98,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/sgFjMjdnR9',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/tasuren1',
               },
             ],
           },
@@ -115,12 +116,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/RextTeam/rt-bot',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} RextTeam Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
