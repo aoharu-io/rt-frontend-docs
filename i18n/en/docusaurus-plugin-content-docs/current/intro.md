@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # RT Document
 
-## サーバーにRTを追加する
+## invite Rt to server.
 
-[こちら](invite)をご覧ください。
+Watch [this](invite).
 
 ## おすすめの設定
 
