@@ -1,0 +1,38 @@
+name: Crowdin Action
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: yarn
+        
+    - name: setup
+      run : |
+        yarn install --frozen-lockfile
+        yarn run write-translations
+    - name: crowdin action
+      run: |
+        yarn add @crowdin/cli@3
+        yarn run crowdin download -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
+        
+    - name: Push
+      run: |
+        git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+        git config --global user.name "tuna2134"
+        git config --global user.email "masato190411@gmail.com"
+        git add .
+        git commit -m "add: translate"
+        git checkout -b main
+        git push origin main
