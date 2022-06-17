@@ -20,6 +20,7 @@ jobs:
         
     - name: setup
       run : |
+        yarn install --frozen-lockfile
         yarn run write-translations
 
     - name: crowdin action
