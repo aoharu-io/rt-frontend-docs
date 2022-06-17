@@ -35,5 +35,4 @@ jobs:
         git config --global user.email "masato190411@gmail.com"
         git add .
         git commit -m "add: translate"
-        git checkout -b main
         git push origin main
