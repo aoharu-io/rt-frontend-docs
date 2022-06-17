@@ -20,6 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      - name: Translate
+        run: yarn run write-translations
       - name: Build website
         run: yarn build
 
@@ -38,3 +40,17 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          
+      - name: Push i18n
+        run: |
+          git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+          git config --global user.name "tuna2134"
+          git config --global user.email "masato190411@gmail.com"
+          git add .
+          git commit -m "add: i18n"
+          git push origin main
+          
+      - name: Crowdin setup
+        run: |
+          yarn add @crowdin/cli@3
+          yarn run crowdin download -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
