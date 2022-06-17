@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} RextTeam Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} RextTeam and tuna2134 Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
