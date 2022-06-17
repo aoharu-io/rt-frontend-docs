@@ -4,28 +4,28 @@ sidebar_position: 2
 
 # invite
 
-## 導入サイト
+## Invite link
 
 https://discord.com/api/oauth2/authorize?client_id=716496407212589087&permissions=8&scope=bot%20applications.commands
 
-## サーバ選択する
+## Select the server
 
-サーバ選択してはいを押す。
+Select the server and push "ok".
 
-![image](/img/invite/1.jpg)
+![image](verify)
 
-## 認証
+## Verify
 
-認証を押す。
+Push verify
 
 ![image2](/img/invite/2.jpg)
 
-## 認証をする
+## Do verify
 
-箱みたいなボタンを押して認証をする。
+Click the box and do verification.
 
 ![image2](/img/invite/3.jpg)
 
-## 導入成功
+## Complete
 
-これで導入成功しました！
+You add RT to server.
