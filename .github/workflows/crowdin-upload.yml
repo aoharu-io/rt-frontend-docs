@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  synchronize-with-crowdin:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,11 +24,7 @@ jobs:
         yarn run write-translations
 
     - name: crowdin action
-      uses: crowdin/github-action@1.0.4
-      with:
-        upload_translations: true
-        download_translations: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      run: |
+        yarn add @crowdin/cli@3
+        yarn run crowdin upload -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
+        
