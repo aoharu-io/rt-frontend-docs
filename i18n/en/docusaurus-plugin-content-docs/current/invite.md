@@ -12,7 +12,7 @@ https://discord.com/api/oauth2/authorize?client_id=716496407212589087&permission
 
 Select the server and push "ok".
 
-![image](verify)
+![image2](/img/invite/2.jpg)
 
 ## Verify
 
