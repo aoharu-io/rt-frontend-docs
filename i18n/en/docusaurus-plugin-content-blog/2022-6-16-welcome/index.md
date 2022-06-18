@@ -1,14 +1,14 @@
 ---
 slug: welcome
-title: ようこそ
+title: welcome
 authors:
   - tuna2134
 tags:
   - hello
 ---
 
-# RT公式ブログ
+# RT's official blog
 
-## 概要
+## Describe
 
-開発者が主にここでブログを書いて投稿します。
+Mainly, developers write blog and post it here

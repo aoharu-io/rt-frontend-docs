@@ -8,6 +8,6 @@ sidebar_position: 1
 
 Watch [this](invite).
 
-## おすすめの設定
+## Recommended settings
 
 [こちら](setting)をご覧ください。
