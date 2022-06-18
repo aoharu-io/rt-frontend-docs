@@ -9,7 +9,7 @@ const config = {
   title: 'RT Document',
   tagline: 'RT Docs',
   url: 'https://rextteam.github.io',
-  baseUrl: '/rt-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
