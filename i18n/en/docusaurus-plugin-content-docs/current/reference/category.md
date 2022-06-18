@@ -2,32 +2,32 @@
 sidebar_position: 2
 ---
 
-# カテゴリー
+# Category
 
 ## server-management
 
-主にサーバを管理する際に使います。
+It is mainly used to manage servers.
 
 ## server-management2
 
-[server-management](#server-management)と同じ役割。
+Same role as [server-management](#server-management).
 
 ## server-tool
 
-サーバを活性化させるために使います。
+Used to activate the server.
 
 ## entertainment
 
-主にゲームなどがあります。
+Mainly games and other activities.
 
 ## individual
 
-個人的に使うものがあります。
+I have a personal use for it.
 
 ## RT
 
-RT関連の機能があります。
+RT-related functions are available.
 
 ## Other
 
-その他
+other
