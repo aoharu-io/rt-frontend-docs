@@ -46,9 +46,11 @@ jobs:
           git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
           git config --global user.name "tuna2134"
           git config --global user.email "masato190411@gmail.com"
-          git add .
-          git commit -m "add: i18n"
-          git push origin main
+          if (git diff --shortstat | grep '[0-9]'); then \
+            git add . \
+            git commit -m "add: i18n" \
+            git push origin main \
+          fi
           
       - name: Crowdin setup
         run: |
