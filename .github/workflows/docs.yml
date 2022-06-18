@@ -56,4 +56,4 @@ jobs:
       - name: Crowdin setup
         run: |
           yarn add @crowdin/cli@3
-          yarn run crowdin download -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
+          yarn run crowdin upload -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
