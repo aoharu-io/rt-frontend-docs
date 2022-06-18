@@ -76,6 +76,10 @@ const config = {
             position: 'left',
           },
           {
+            type: 'localeDropdown',
+            position: 'right'
+          },
+          {
             href: 'https://github.com/RextTeam/rt-docs',
             label: 'GitHub',
             position: 'right',
