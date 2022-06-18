@@ -10,4 +10,5 @@ sidebar_position: 4
 
 ## 一覧
 
-[help](./help)
+[ヘルプ](./help)
+[カテゴリー](./category)
