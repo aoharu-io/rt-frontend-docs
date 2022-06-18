@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'RT Document',
   tagline: 'RT Docs',
-  url: 'https://docs.rext.dev',
+  url: 'https://docs.rt.rext.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
