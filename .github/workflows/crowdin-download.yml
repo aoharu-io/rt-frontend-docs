@@ -31,6 +31,7 @@ jobs:
         git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
         git config --global user.name "tuna2134"
         git config --global user.email "masato190411@gmail.com"
+        git pull origin main
         git add .
         git commit -m "add: translate"
         git push origin main
