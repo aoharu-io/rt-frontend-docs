@@ -1,12 +1,12 @@
 ---
-title: 現在開発中の機能
-description: 現在開発中の機能について
+title: Features currently under development
+description: Functions currently under development
 slug: about
 authors: tuna2134
 tags:
   - about
 ---
 
-# 現在開発中の機能(グローバルチャットの使い方)
+# Functions currently under development (how to use global chat)
 
-現在作成中
+Currently being created
