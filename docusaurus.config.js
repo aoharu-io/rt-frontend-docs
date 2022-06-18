@@ -71,7 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://rext.dev',
+            href: 'https://rt.rext.dev',
             label: 'Webpage',
             position: 'left',
           },
