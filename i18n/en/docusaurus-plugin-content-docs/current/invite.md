@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Invite
+# invite
 
 ## Invite link
 
@@ -26,6 +26,6 @@ Click the box and do verification.
 
 ![image3](/img/invite/3.jpg)
 
-## Complete
+## Completed
 
-You add RT to server.
+You added RT to server.

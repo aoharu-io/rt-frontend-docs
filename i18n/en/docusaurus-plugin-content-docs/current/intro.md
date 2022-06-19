@@ -10,4 +10,4 @@ Watch [this](invite).
 
 ## Recommended settings
 
-[こちら](setting)をご覧ください。
+Watch [this](setting).

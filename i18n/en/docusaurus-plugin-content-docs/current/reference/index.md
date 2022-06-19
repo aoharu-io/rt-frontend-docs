@@ -4,12 +4,12 @@ sidebar_position: 4
 
 # Reference
 
-## 概要
+## describe
 
-主にこれは、詳しく説明したドキュメントとなっております。
+Mainly, this document explains in detail
 
 ## 一覧
 
-[ヘルプ](./help)
+[help](./help)
 
-[カテゴリー](./category)
+[category](./category)

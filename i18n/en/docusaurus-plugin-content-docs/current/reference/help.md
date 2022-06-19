@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # help
 
-## 概要
+## describe
 
-これはヘルプの見方について説明します。
+This page explains the way to see helps
 
 ## 引数
 
@@ -14,7 +14,7 @@ sidebar_position: 1
 
 `<name>`は強制です。
 
-例えば
+For instance
 
 `rt!hello <text> [channel=None]`の場合
 
