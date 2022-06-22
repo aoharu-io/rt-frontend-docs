@@ -8,14 +8,14 @@ sidebar_position: 1
 
 This page explains the way to see helps
 
-## 引数
+## Argument
 
-`[name=None]`は任意です。
+`[name=None]` is optional.
 
-`<name>`は強制です。
+`<name>` is mandatory.
 
-For instance
+For example
 
-`rt!hello <text> [channel=None]`の場合
+`rt!hello <text> [channel=None]`
 
-textが強制で、channelは任意です。
+text is mandatory and channel is optional.
