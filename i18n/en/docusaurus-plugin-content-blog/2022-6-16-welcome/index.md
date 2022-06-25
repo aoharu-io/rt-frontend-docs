@@ -3,6 +3,8 @@ slug: welcome
 title: welcome
 authors:
   - tuna2134
+  - tasuren
+  - takkun
 tags:
   - hello
 ---
