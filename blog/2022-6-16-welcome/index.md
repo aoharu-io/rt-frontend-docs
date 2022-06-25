@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: ようこそ
-authors: [tuna2134]
+authors: [tuna2134, tasuren, takkun]
 tags: [hello]
 ---
 
