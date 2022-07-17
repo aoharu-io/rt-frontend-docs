@@ -76,3 +76,4 @@ class Admin(Cog):
     # 以下略
     async def cog_load(self):
         await self.data.prepare_table()
+```
