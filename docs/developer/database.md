@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # データベース関連
 
 # SQL
