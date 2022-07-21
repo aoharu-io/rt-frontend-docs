@@ -12,7 +12,7 @@
 
 例:
 ```sql
-CREATE TABLE IF NOT EXISTS GlobalChat
+CREATE TABLE IF NOT EXISTS GlobalChat;
 ```
 
 ## カラム命名規則
@@ -53,6 +53,7 @@ Sample:
 
 ```py
 from core import cursor
+
 
 async def get_user(self, user_id: int):
     await cursor.execute(...)
