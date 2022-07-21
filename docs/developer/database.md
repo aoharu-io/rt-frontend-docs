@@ -8,7 +8,7 @@
 
 基本はパスカルケースでお願いします。
 
-`CREATE TABLE `の後に``IF NOT EXISTS `を必ず入れてください。
+`CREATE TABLE `の後に`IF NOT EXISTS `を必ず入れてください。
 
 例:
 ```sql
