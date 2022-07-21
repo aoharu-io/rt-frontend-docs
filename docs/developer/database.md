@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # データベース関連
 
 # SQL
@@ -8,11 +12,11 @@
 
 基本はパスカルケースでお願いします。
 
-`CREATE TABLE `の後に``IF NOT EXISTS `を必ず入れてください。
+`CREATE TABLE `の後に`IF NOT EXISTS `を必ず入れてください。
 
 例:
 ```sql
-CREATE TABLE IF NOT EXISTS GlobalChat
+CREATE TABLE IF NOT EXISTS GlobalChat;
 ```
 
 ## カラム命名規則
@@ -53,6 +57,7 @@ Sample:
 
 ```py
 from core import cursor
+
 
 async def get_user(self, user_id: int):
     await cursor.execute(...)
