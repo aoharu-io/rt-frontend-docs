@@ -19,7 +19,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro">
             <Translate description="RT turoial">
-              RTチュートリアル
+              ドキュメントを見る
             </Translate>
           </Link>
         </div>
