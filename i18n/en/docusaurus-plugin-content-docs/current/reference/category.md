@@ -3,21 +3,21 @@ sidebar_position: 2
 ---
 
 # Category
-## サーバー運営
-主にサーバーを運営するのに使える機能のカテゴリーです。
+## Server Management
+This category is primarily for features that can be used to run the server.
 
-## サーバー運営2
-サーバー運営と同じです。
+## Server Management 2
+It is the same as server management.
 
-## サーバーツール
-サーバーのモデレーションやメッセージ一括削除などのサーバーの管理に便利な機能があります。
+## Server Tool
+There are useful functions for server management, such as server moderation and batch message deletion.
 
-## 個人
-I have a personal use for it.  
-読み上げと音楽プレイヤーはこのカテゴリーにあります。
+## Individual
+There are commands in this category that user personally use.  
+TTS and music players are in this category.
 
 ## RT
 RT-related functions are available.
 
 ## Other
-その他、RT管理用コマンド等があります。
+Other commands include those for RT management.

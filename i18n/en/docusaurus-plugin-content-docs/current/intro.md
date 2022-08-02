@@ -3,25 +3,25 @@ sidebar_position: 1
 ---
 
 # Introduction
-Hi!ここはRTの様々なことを説明するための場所です。 RTのウェブサイトは[こちら](https://rt.rext.dev/)にあるので、そちらも是非ご確認ください。
+Hi! This is the place to explain various things about RT. The RT website is [here](https://rt.rext.dev/), so please check that out as well.
 
-## What is RT?
-RTは大抵のBotにある機能を詰め込んだ多機能なDiscordのBotです。  
-RTがいれば大体の事が済むように設計しています。  
-例えば以下のような機能は同然のように搭載しています。
+## About RT
+RT is a feature-rich Discord bot packed with features that most bots have.  
+We've designed it so that RT is all you need to get most things done.  
+For example, the following features are commonplace.
 
 - Role panel
 - Poll panel
 - Ticket panel
 - Channel status
 
-そのほかにも、ボイスロールなどのあまり他のBotにはない機能や、娯楽系の音楽プレイヤーや読み上げ等の機能も搭載しています。
+Other features not found in many other bots, such as voice rolls, and entertainment music players, TTS, etc. are also included.
 
-## 運営元
-Rext(旧RT-Team)という組織がRTの運営と開発を始めた組織で今も運営と開発をしています。  
-また、通称さくら新撰組という組織とも協力して開発をしています。
+## Operator
+Rext (formerly RT-Team) is the organization that started RT's operation and development and is still operating and developing it.  
+We are also working with an organization commonly known as Sakura Shin-Sen-Gumi for development.
 
-## 価格
-RTは無料版と製品版があり、無料版には色々な制約があります。  
-製品版にすると様々な機能が使えるようになり、無料板より制約が緩くなります。  
-詳細はウェブサイトにて比較されています。
+## Price
+RTには無料版と製品版があり、無料版には色々な制約があります。  
+The commercial version allows for a variety of features and has looser restrictions than the free board.  
+More details are compared on the website.

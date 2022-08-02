@@ -27,25 +27,25 @@ In Discord, the word "command" is frequently used regardless of RT.
 This refers to the string used to operate the Bot.  
 As the name implies, "command" is used to command the Bot.
 ### Slash Command
-スラッシュコマンドというのは、Discord公式が用意しているBotを操作するための方法です。  
-例えば、テキストチャンネル等で`/ping`と入力してみましょう。  
-すると、RTのアイコンと`/ping`と書かれた選択肢が恐らくでてくるはずです。  
-(出てこない場合はネットが遅いか何かしらのバグが起きています。)  
-その`/ping`と出てきた項目を押してメッセージを送信してみましょう。  
-すると、RTが返信してくれるはずです。  
-このように、RTに何かを指示するには大抵の場合、コマンド(命令)を書きメッセージで送る必要があります。
-### メッセージコマンド
-メッセージコマンドはとてもスラッシュコマンドと似ています。  
-これは、スラッシュを使わないDiscord公式ではない非公式なBotの命令方法です。  
-スラッシュと違い、普通のメッセージを送信して、RTがそのメッセージの内容を見てコマンドを実行するというものです。  
-例えば、スラッシュコマンドの時に実行した`ping`コマンドを実行する場合は以下のようになります。
+The slash command is a way to control the bot, which is provided by Discord officials.  
+For example, type `/ping` in a text channel.  
+Then you will probably see an RT icon and an option that says `/ping`.  
+(If it does not appear, the Internet is slow or there is some kind of bug.)  
+Let's send a message by pressing the item that comes up with that `/ping`.  
+Then RT should reply to you.  
+Thus, to instruct RT to do something, it is usually necessary to send a command (instruction) in a written message.
+### Message Command
+The message command is very similar to the slash command.  
+This is an unofficial, non-slash official Discord bot instruction method.  
+Unlike slash, a normal message is sent and the RT sees the contents of the message and executes the command.  
+For example, to execute a `ping` command executed when a slash command is used, it would look like this:
 > `rt!ping`
 
-`/ping`の`/`が`rt!`となっただけです。  
-このやり方は大昔からあるやり方で、今もRT以外でもこのやり方で操作するBotが恐らく残っています。  
-スラッシュコマンドの場合は、補完という途中まで入力した文字に似たコマンドを表示してくれる機能があったりします。  
-ですので、大抵の場合はスラッシュコマンドの方が操作しやすいと思います。  
-ちなみに、この例では`rt!`が最初についていますが、これ以外にも`Rt!`や`りつ！`等でも呼び出すことができます。
+The `/` in `/ping` just became `rt!`.  
+This method has been around for a long time, and there are probably still bots outside of RT that operate in this manner.  
+In the case of slash commands, there is a function called completion that displays commands similar to the characters you have typed in the middle of the command.  
+So, in most cases, the slash command is easier to operate.  
+Incidentally, in this example, `rt!` is first, but there are also `Rt!` and `Ritsu!`, etc. can also be used.
 ### コマンドの存在を知る方法
 といっても、何のコマンドがどんなことをするのかわからないと、RTを操ることはできません。  
 もちろん、それを教えるための取扱説明書なるものが存在します。  
