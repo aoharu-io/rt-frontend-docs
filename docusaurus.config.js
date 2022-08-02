@@ -127,6 +127,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/RextTeam/rt-bot',
               },
+              {
+                label: 'Crowdin',
+                href: 'https://crowdin.com/project/rt-docs',
+              },
             ],
           },
         ],
