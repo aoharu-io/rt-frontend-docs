@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Introduction
-Hi!This is a place to explain many things about RT. The RT website is [here](https://rt.rext.dev), so please check it out.
+Hi!ここはRTの様々なことを説明するための場所です。 RTのウェブサイトは[こちら](https://rt.rext.dev/)にあるので、そちらも是非ご確認ください。
 
 ## What is RT?
 RTは大抵のBotにある機能を詰め込んだ多機能なDiscordのBotです。  
