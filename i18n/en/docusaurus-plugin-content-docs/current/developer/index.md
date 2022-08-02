@@ -2,5 +2,5 @@
 sidebar_position: 5
 - - -
 
-# 開発者向け
+# For developer
 ここには、RTの開発者向けのドキュメントがあります。
