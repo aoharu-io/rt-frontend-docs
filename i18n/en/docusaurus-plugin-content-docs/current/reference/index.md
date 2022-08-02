@@ -1,15 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Reference
-
-## describe
-
-Mainly, this document explains in detail
-
-## 一覧
-
-[help](./help)
-
-[category](./category)
+# リファレンス
+このカテゴリーではRTのヘルプに書き記すには量が多すぎるようなものなどを説明しています。  
+また、知っておくと良い情報なども書いてあります。
