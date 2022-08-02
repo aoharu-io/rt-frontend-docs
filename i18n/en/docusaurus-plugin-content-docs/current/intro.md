@@ -2,18 +2,18 @@
 sidebar_position: 1
 ---
 
-# イントロダクション
-こんにちは！ここはRTの様々なことを説明するための場所です。 RTのウェブサイトは[こちら](https://rt.rext.dev/)にあるので、そちらも是非ごかくにんください。
+# Introduction
+Hi!This is a place to explain many things about RT. The RT website is [here](https://rt.rext.dev), so please check it out.
 
-## RTとは
+## What is RT?
 RTは大抵のBotにある機能を詰め込んだ多機能なDiscordのBotです。  
 RTがいれば大体の事が済むように設計しています。  
 例えば以下のような機能は同然のように搭載しています。
 
-- 役職パネル
-- 投票パネル
-- チケットパネル
-- チャンネルステータス
+- Role panel
+- Poll panel
+- Ticket panel
+- Channel status
 
 そのほかにも、ボイスロールなどのあまり他のBotにはない機能や、娯楽系の音楽プレイヤーや読み上げ等の機能も搭載しています。
 
