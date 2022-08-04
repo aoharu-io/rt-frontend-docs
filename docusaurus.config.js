@@ -140,6 +140,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        apiKey: process.env.ALGOLIA_API_KEY,
+        appId: process.env.ALGOLIA_APP_ID,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        contextualSearch: true,
+        searchPagePath: 'search',
+      }
     }),
 };
 
