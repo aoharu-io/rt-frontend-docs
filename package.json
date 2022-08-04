@@ -24,13 +24,9 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@docusaurus/module-type-aliases": "^2.0.0-rc.1",
     "@tsconfig/docusaurus": "^1.0.6",
     "typescript": "^4.7.4"
-=======
-    "@docusaurus/module-type-aliases": "2.0.1"
->>>>>>> 64db14c02bd1d3114ad84db5fa0871e953774524
   },
   "browserslist": {
     "production": [
