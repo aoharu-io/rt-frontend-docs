@@ -1453,6 +1453,7 @@
     url-loader "^4.1.1"
     webpack "^5.73.0"
 
+<<<<<<< HEAD
 "@docusaurus/module-type-aliases@2.0.0-rc.1":
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-rc.1.tgz#c7839ac15b7712a8d86353a3253918f63ffbea09"
@@ -1487,6 +1488,8 @@
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-2.0.0-rc.1.tgz#8ae5d5ec2da08c583a057bf2754a5b9278b3eb08"
   integrity sha512-BVVrAGZujpjS/0rarY2o24rlylRRh2NZuM65kg0JNkkViF79SeEHsepog7IuHyoqGWPm1N/I7LpEp7k+gowZzQ==
 =======
+=======
+>>>>>>> 64db14c02bd1d3114ad84db5fa0871e953774524
 "@docusaurus/module-type-aliases@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.1.tgz#44d7132297bedae0890695b0e7ebbe14a73e26d1"
@@ -1791,6 +1794,7 @@
     fs-extra "^10.1.0"
     tslib "^2.4.0"
 
+<<<<<<< HEAD
 "@docusaurus/types@2.0.0-rc.1":
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-rc.1.tgz#032f8afde6b4878e37f984b9949a96b150103c21"
@@ -1805,6 +1809,8 @@
     webpack "^5.73.0"
     webpack-merge "^5.8.0"
 
+=======
+>>>>>>> 64db14c02bd1d3114ad84db5fa0871e953774524
 "@docusaurus/types@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.1.tgz#8696a70e85c4b9be80b38ac592d520f6fe72618b"
