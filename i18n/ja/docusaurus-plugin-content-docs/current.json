@@ -6,5 +6,13 @@
   "sidebar.tutorialSidebar.category.Reference": {
     "message": "Reference",
     "description": "The label for category Reference in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.リファレンス": {
+    "message": "リファレンス",
+    "description": "The label for category リファレンス in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.開発者向け": {
+    "message": "開発者向け",
+    "description": "The label for category 開発者向け in sidebar tutorialSidebar"
   }
 }

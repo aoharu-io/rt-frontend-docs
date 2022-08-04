@@ -3,31 +3,21 @@ sidebar_position: 2
 ---
 
 # Category
+## Server Management
+This category is primarily for features that can be used to run the server.
 
-## server-management
+## Server Management 2
+It is the same as server management.
 
-It is mainly used to manage servers.
+## Server Tool
+There are useful functions for server management, such as server moderation and batch message deletion.
 
-## server-management2
-
-Same role as [server-management](#server-management).
-
-## server-tool
-
-Used to activate the server.
-
-## entertainment
-
-Mainly games and other activities.
-
-## individual
-
-I have a personal use for it.
+## Individual
+There are commands in this category that user personally use.  
+TTS and music players are in this category.
 
 ## RT
-
 RT-related functions are available.
 
 ## Other
-
-other
+Other commands include those for RT management.

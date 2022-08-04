@@ -34,5 +34,9 @@
   "copyright": {
     "message": "Copyright © 2022 RextTeam and tuna2134 Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Crowdin": {
+    "message": "Crowdin",
+    "description": "The label of footer link with label=Crowdin linking to https://crowdin.com/project/rt-docs"
   }
 }
