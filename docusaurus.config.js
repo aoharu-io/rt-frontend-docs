@@ -72,7 +72,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://rt.rext.dev',
-            label: 'Webpage',
+            label: 'Website',
             position: 'left',
           },
           {
