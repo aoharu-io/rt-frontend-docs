@@ -1,12 +1,12 @@
 ---
-title: 現在開発中の機能
-description: 現在開発中の機能について
+title: discord.py基本1
+description: discord.pyの解説。
 slug: about
 authors: tuna2134
 tags: [discord.py]
 ---
 
-# 猿でもわかるbotの作り方
+# discord.py 基本1
 
 ## 概要
 
