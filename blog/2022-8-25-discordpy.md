@@ -1,7 +1,7 @@
 ---
 title: discord.py基本1
 description: discord.pyの解説。
-slug: about
+slug: dpy
 authors: tuna2134
 tags: [discord.py]
 ---
