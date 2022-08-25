@@ -42,6 +42,7 @@ tree = app_commands.CommandTree(client)
 ```python
 @tree.command(description="Pingコマンドだよ。")
 async def ping(interaction):
+    # Pongと送信
     await interaction.response.send_message("Pong!")
 ```
 
@@ -50,6 +51,7 @@ async def ping(interaction):
 ```python
 @client.event
 async def on_ready():
+    # アプリケーションコマンドと同期
     await tree.sync()
     print("起動しました")
 ```
