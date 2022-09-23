@@ -22,6 +22,6 @@ Rext (formerly RT-Team) is the organization that started RT's operation and deve
 We are also working with an organization commonly known as Sakura Shin-Sen-Gumi for development.
 
 ## Price
-RTには無料版と製品版があり、無料版には色々な制約があります。  
+RT has a free version and a commercial version, and the free version has various restrictions.  
 The commercial version allows for a variety of features and has looser restrictions than the free board.  
 More details are compared on the website.

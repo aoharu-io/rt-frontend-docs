@@ -1,6 +1,6 @@
 ---
 title: Features currently under development
-description: Functions currently under development
+description: Features currently under development
 slug: about
 authors: tuna2134
 tags:
@@ -9,18 +9,18 @@ tags:
 
 # Functions currently under development (how to use global chat)
 
-## 概要
+## Description
 
-グローバルチャットの説明
+An explanation of how to use global chat
 
-## 作成
+## Create
 
-`rt!gc make <名前>`で作成できます。
+Use `rt!gc make <name>` to create.
 
-## 接続
+## Connect
 
-`rt!gc join <名前>`で接続できます。
+Use `rt!gc join <name>` to join.
 
-## 退出
+## Exit
 
-`rt!gc leave`で退出できます。
+Use `rt!gc leave` to leave.

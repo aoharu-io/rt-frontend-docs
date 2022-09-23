@@ -3,13 +3,13 @@ sidebar_position: 3
 ---
 
 # Cacher
-Cacherというものは、辞書のように扱える有効期限つきのキャッシュのクラスです。  
-`rtlib.common.cacher.CacherPool.acquire`を使用して取得する必要があります。  
-なお、`CacherPool`は、rt-botではBotのインスタンスに、rt-backendでは`sanic.Sanic.ctx`に、`cachers`という名前の属性に代入されます。 使用方法は辞書と同じです。  
-Cacherの取得に使う`CacherPool.acquire`の使用方法については、その関数のドキュメンテーションを見てください。
+Cacher is a class of cache equipped with an expiration time and that functions similarly to a dictionary.  
+You must use `rtlib.common.cacher.CacherPool.acquire` in order to obtain Cacher.  
+Note that `CacherPool` will be an instance of Bot for rt-bot or an instance of `sanic.Sanic.ctx` for rt-backend, and it will be assigned to the attribute named `cachers`. Its operations are just like a dictionary's.  
+For details on how to use the function `CacherPool.acquire`, which is used to obtain Cacher, please refer to its documentation.
 
-## 型付け
-`Cacher[キー, 値]`のように辞書と同じように型付けが可能です。
+## Syntax
+You can use the syntax `Cacher[key, value]` for Cacher, just like you would with a dictionary.
 
-## 値の有効期限の更新
-`Cacher.update_deadline`か`Cacher.set_deadline`で可能です。
+## Changing the value expiration time
+You can set the expiration time with either `Cacher.update_deadline` or `Cacher.set_deadline`

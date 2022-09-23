@@ -14,4 +14,4 @@ This would be a rate limitation if the server is active, with multiple people ta
 - 荒らされないようにRTの認証を適切に設定する。
 - Set the channel to low-speed mode.
   - Discordのアプリでは五秒づつでしか設定できませんが、RTの`slowmode`コマンドを使用することで、三秒などに設定することが可能です。
-- Buy the product version.
+- 製品版のRTを買う。

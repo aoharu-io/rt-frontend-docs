@@ -46,12 +46,12 @@ This method has been around for a long time, and there are probably still bots o
 In the case of slash commands, there is a function called completion that displays commands similar to the characters you have typed in the middle of the command.  
 So, in most cases, the slash command is easier to operate.  
 Incidentally, in this example, `rt!` is first, but there are also `Rt!` and `Ritsu!`, etc. can also be used.
-### コマンドの存在を知る方法
-といっても、何のコマンドがどんなことをするのかわからないと、RTを操ることはできません。  
-もちろん、それを教えるための取扱説明書なるものが存在します。  
-それはヘルプコマンドというものです。  
-`/help`(または`rt!help`)と実行してみてください。  
-すると、選択ボックスが二つついたメッセージをRTが送信します。  
+### How to know existing commands
+However, you cannot control RT if you do not know what commands do what.  
+Of course, There is a user's manual to tell it.  
+This is called "Help Command".  
+Please run `/help` (or `rt!help`).  
+Then, RT sends a message that has two select boxes.  
 この選択ボックスでカテゴリーとコマンドを選択することで、コマンドの説明(使用方法)を見ることができます。  
 二つの選択ボックスのうち上にあるのが、コマンドの種類を表すカテゴリーの選択ボックスです。  
 下にある選択ボックスが、そのカテゴリーに分類されているコマンドの選択ボックスとなります。  
