@@ -101,16 +101,16 @@ async def update_caches(self) -> None:
         self.caches[row[0]] = row[1:]
 ```
 
-### rt-botリポジトリ限定
-rt-botリポジトリ限定でDataManagerに実装すべき関数や考慮すべきことがあります。  
-それは、`update_caches`と`clean`です。  
-それについてをここに書きます。
-#### DataManagerのインスタンスを置く場所
-コグの`data`という名前の属性に代入してください。
-#### DataManagerでCacherを使う場合の変数名
-DataManagerでセーブデータのキャッシュを保存するために`rtlib.common.cacher.Cacher`を使用したキャッシュを作る場合は、そのCacherを入れた属性の名前の最後に`caches`となるようにしてください。  
-もし、複数のCacherを使う場合は、標準ライブラリのdataclassesの`dataclass`を使用して作ったデータクラスにCacherを格納して、そのデータクラスのインスタンスをDataManagerの`caches`という名前の属性に代入してください。
-#### `clean`関数
+### rt-bot repository restrictions
+When working with the rt-bot repository, there are some functions that must be implemented in DataManager and some considerations that must be taken into account.  
+Specifically, `update_caches` and `clean` must be handled.  
+We will discuss these in this section.
+#### Where to store the DataManager instance
+You must assign it to Cog's `data` property.
+#### Variable names when using Cacher with DataManager
+When creating a cache using `rtlib.common.cacher.Cacher` to keep a save data cache in DataManager, the name of the variable that stores that Cacher must end `caches`.  
+If you are using multiple Cacher instances, you must store them in a `dataclass` instance (using the standard library's dataclasses module). You must then assign that dataclass instance to DataManager's `caches` property.
+#### The `clean` function
 これは、Bot(シャード)が起動完了している状態、かつ動いている全てのシャードのクライアントの中で自分が一番非同期タスクが少ないシャードとなっている場合にのみ、定期的に呼び出されます。  
 この関数には、存在すべきではないデータを消すプログラムを実装してください。  
 つまり、死神を実装してください。  
