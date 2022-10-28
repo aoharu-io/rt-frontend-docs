@@ -12,6 +12,6 @@ tags:
 
 # RT's official blog
 
-## Description
+## Summary
 
 Developers usually write and publish blog posts here.

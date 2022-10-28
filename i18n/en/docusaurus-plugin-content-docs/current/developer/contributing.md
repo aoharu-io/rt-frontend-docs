@@ -22,7 +22,7 @@ update
 Please end your commit message with a full stop (period).  
 Example：`improve: Deleted unecessary import.`
 
-## SQL Style
+## SQL Writing Style
 Use uppercase letters.  
 Make sure you put `;` at the end.  
 Use UpperCamelCase for table names and column names.
