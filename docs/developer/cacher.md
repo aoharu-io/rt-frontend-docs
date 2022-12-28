@@ -4,8 +4,8 @@ sidebar_position: 3
 
 # Cacher
 Cacherというものは、辞書のように扱える有効期限つきのキャッシュのクラスです。  
-`rtlib.common.cacher.CacherPool.acquire`を使用して取得する必要があります。  
-なお、`CacherPool`は、rt-botではBotのインスタンスに、rt-backendでは`sanic.Sanic.ctx`に、`cachers`という名前の属性に代入されます。
+`rextlib.common.cacher.CacherPool.acquire`を使用して取得する必要があります。  
+なお、`CacherPool`は、rt-botではBotのインスタンスに、rt-backendでは`core.Core`に、`cachers`という名前の属性に代入されます。
 使用方法は辞書と同じです。  
 Cacherの取得に使う`CacherPool.acquire`の使用方法については、その関数のドキュメンテーションを見てください。
 
