@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/RextTeam/rt-docs/tree/main/docs',
+            'https://github.com/rext-dev/rt-docs/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/RextTeam/rt-docs/tree/main/blog',
+            'https://github.com/rext-dev/rt-docs/tree/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,7 +80,7 @@ const config = {
             position: 'right'
           },
           {
-            href: 'https://github.com/RextTeam/rt-docs',
+            href: 'https://github.com/rext-dev/rt-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/RextTeam/rt-bot',
+                href: 'https://github.com/rext-dev/rt-bot',
               },
               {
                 label: 'Crowdin',

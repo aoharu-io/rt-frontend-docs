@@ -41,7 +41,7 @@ Specifically, assign it as the pool instance within the Bot reference in Cog.
 class DataManager(DatabaseManager):
     def __init__(self, cog: CogName):
         self.cog = cog
-        self.pool = self.cog.bot.pool
+        self.pool = self.cog.connection.pool
 ```
 ### Executing SQL queries
 Coroutine functions for executing SQL queries are implemented within the class.  
