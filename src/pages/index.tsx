@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`RT公式document ${siteConfig.title}`}
+      title={`RT公式ドキュメント ${siteConfig.title}`}
       description="何かわからないことがありましたら、こちらをご覧ください。">
       <HomepageHeader />
     </Layout>
