@@ -11,12 +11,9 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       
     - uses: actions/setup-node@v3
-      with:
-        node-version: 16.x
-        cache: yarn
         
     - name: setup
       env:
@@ -24,11 +21,11 @@ jobs:
         ALGOLIA_APP_ID: ${{secrets.ALGOLIA_APP_ID}}
         ALGOLIA_INDEX_NAME: ${{secrets.ALGOLIA_INDEX_NAME}}
       run : |
-        yarn install --frozen-lockfile
-        yarn run write-translations
+        npm install --frozen-lockfile
+        npm run write-translations
 
     - name: crowdin action
       run: |
-        yarn add @crowdin/cli@3
-        yarn run crowdin upload -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
+        npm add @crowdin/cli@3
+        npm run crowdin upload -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
         
