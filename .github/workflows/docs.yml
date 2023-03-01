@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
 
       - name: Install dependencies
-        run: npm update cifrozen-lockfile --non-interactive
+        run: npm install cifrozen-lockfile --non-interactive
       - name: Translate
         run: npm run write-translations
       - name: Build website
