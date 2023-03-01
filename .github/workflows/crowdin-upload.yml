@@ -25,7 +25,5 @@ jobs:
         npm run write-translations
 
     - name: crowdin action
-      run: |
-        npm add @crowdin/cli@3
-        npm run crowdin upload -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
+      run: npm run crowdin upload -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
         

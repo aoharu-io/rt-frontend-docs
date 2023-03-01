@@ -23,9 +23,7 @@ jobs:
         npm install --frozen-lockfile
         npm run write-translations
     - name: crowdin action
-      run: |
-        npm add @crowdin/cli@3
-        npm run crowdin download -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
+      run: npm run crowdin download -T=${{ secrets.CROWDIN_PERSONAL_TOKEN }} -i=${{ secrets.CROWDIN_PROJECT_ID}}
         
     - name: Push
       run: |
