@@ -11,16 +11,29 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'Guides',
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
-          ],
+          label: "入門",
+          autogenerate: {directory: "."}
         },
         {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
+          label: "マニュアル",
+          items: [
+            {label: "RT", autogenerate: {directory: "manual/rt"}},
+            {label: "個人", autogenerate: {directory: "manual/individual"}},
+            {label: "サーバー運用", items: [
+              {label: "ロールキーパー", link: "manual/server_management/role_keeper.md"},
+              {label: "ガイド", autogenerate: {directory: "manual/server_management/guide"}}
+            ]},
+            {label: "サーバーツール", autogenerate: {directory: "manual/server_tool"}}
+          ]
         },
+        {
+          label: "リファレンス",
+          autogenerate: {directory: "reference"},
+        },
+        {
+          label: "開発者向け",
+          autogenerate: {directory: "developer"}
+        }
       ],
     }),
   ],
