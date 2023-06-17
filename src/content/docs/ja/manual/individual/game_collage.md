@@ -5,7 +5,7 @@ title: ゲームコラメーカー
 
 ## 引数
 引数はゲーム機の種類とゲームパッケージに埋め込む画像を渡します。  
-例：`/game_package Nintendo Switch 上の画像`
+例：`/game_package [Nintendo Switch] 画像`
 
 ## 使用例
-![a_midsummer_nights_lewd_dream-censored.png](/img/manual/a_midsummer_nights_lewd_dream-censored.png)
+![a_midsummer_nights_lewd_dream-censored.png](../../../../assets/manual/a_midsummer_nights_lewd_dream-censored.png)

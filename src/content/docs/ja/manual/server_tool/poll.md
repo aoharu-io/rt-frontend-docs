@@ -21,11 +21,11 @@ title: 投票
 ### パネルの作成
 まず、`/poll`コマンドを実行して投票パネルを作ります。投票パネルとは、投票内容を提示するためのメッセージのことです。  
 #### 例
-![コマンド](/img/manual/server_tool/poll/cmd.png)
+![コマンド](../../../../assets/manual/server_tool/poll/cmd.png)
 ### 編集画面
 パネルにある「編集」というボタンを押すことで、パネルの内容を変更するためのボタン等が表示されます。  
 ここで投票項目の追加や削除を行うことができます。  
-![編集画面](/img/manual/server_tool/poll/edit.png)
+![編集画面](../../../../assets/manual/server_tool/poll/edit.png)
 ### 項目の追加や削除
 編集画面の「追加」というボタンを押すことで、投票項目の入力画面が表示されます。
 :::note
@@ -43,13 +43,13 @@ title: 投票
 
 ## 使用例
 ### かわい子ちゃんを決める
-![かわい子ちゃんを決める](/img/manual/server_tool/poll/cookie☆.png)
+![かわい子ちゃんを決める](../../../../assets/manual/server_tool/poll/cookie-star.png)
 #### コマンド
-![コマンド](/img/manual/server_tool/poll/cmd.png)
+![コマンド](../../../../assets/manual/server_tool/poll/cmd.png)
 ### 削除希望
-![削除希望](/img/manual/server_tool/poll/delete_channel.png)
+![削除希望](../../../../assets/manual/server_tool/poll/delete_channel.png)
 #### コマンド
-![コマンド](/img/manual/server_tool/poll/delete_channel_cmd.png)
+![コマンド](../../../../assets/manual/server_tool/poll/delete_channel_cmd.png)
 
 ## 作成限度
 RTはサーバー毎に一人25個まで同時に投票データを保持します。もしそれ以上の投票パネルを作りたい場合は、既に作ったものでいらないのを`/poll manage`コマンドで削除するか、投票パネルの編集で締め切りボタンで締め切ってください。
