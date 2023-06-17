@@ -1,0 +1,1 @@
+コントリビューティングガイドについては[こちら](https://rt-docs.pages.dev/ja/developer/contributing/)に記載されています。
