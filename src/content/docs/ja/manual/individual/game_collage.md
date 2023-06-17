@@ -8,4 +8,4 @@ title: ゲームコラメーカー
 例：`/game_package [Nintendo Switch] 画像`
 
 ## 使用例
-![a_midsummer_nights_lewd_dream-censored.png](../../../../assets/manual/a_midsummer_nights_lewd_dream-censored.png)
+![a_midsummer_nights_lewd_dream-censored.png](../../../../../assets/manual/a_midsummer_nights_lewd_dream-censored.png)

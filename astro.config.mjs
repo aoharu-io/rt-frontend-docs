@@ -7,9 +7,8 @@ export default defineConfig({
     starlight({
       title: 'RT Docs',
       social: {
-        github: 'https://github.com/rext-dev/rt-docs',
-        website: "https://rt.rext.dev/"
-        
+        discord: "https://discord.gg/aP7SG5XaTK",
+        github: 'https://github.com/rext-dev/rt-docs'
       },
       defaultLocale: 'ja',
       locales: {
