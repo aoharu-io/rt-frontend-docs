@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/starlight':
-    specifier: ^0.2.0
-    version: 0.2.0(astro@2.6.4)
+    specifier: ^0.4.2
+    version: 0.4.2(astro@2.6.4)
   astro:
     specifier: ^2.6.4
     version: 2.6.4
@@ -113,8 +113,8 @@ packages:
       zod: 3.21.4
     dev: false
 
-  /@astrojs/starlight@0.2.0(astro@2.6.4):
-    resolution: {integrity: sha512-sAWpdsLOc3Wekbv47FWsx57Yc5a9VHcSMl0D6Uu+OL9Gud3cZ/MzCj+Z1XsVxeAZ1XjGBIYRsCBKuBbW5ME5EQ==}
+  /@astrojs/starlight@0.4.2(astro@2.6.4):
+    resolution: {integrity: sha512-ugto4HC6FEc/gTU8nXM81rzgstVepCLwd8RnFDaRLvoG44dxS97XD9SONQh/7Y+P6WNnW3lP2wQM8d9EF1xfkQ==}
     peerDependencies:
       astro: ^2.5.0
     dependencies:
@@ -132,7 +132,7 @@ packages:
       unified: 10.1.2
       unist-util-remove: 3.1.1
       unist-util-visit: 4.1.2
-      vfile: 6.0.0
+      vfile: 5.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -3522,13 +3522,6 @@ packages:
       unist-util-stringify-position: 3.0.3
     dev: false
 
-  /vfile-message@4.0.1:
-    resolution: {integrity: sha512-Z1WqUoIK6T6LLoyO64ncUapmjlA84JqKRQFjcG0kZnnyysfq2rMyg5NvKhkQ16GH9FRCRT+Rk4G0aMxgKYS16g==}
-    dependencies:
-      '@types/unist': 2.0.6
-      unist-util-stringify-position: 3.0.3
-    dev: false
-
   /vfile@5.3.7:
     resolution: {integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==}
     dependencies:
@@ -3536,14 +3529,6 @@ packages:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
-    dev: false
-
-  /vfile@6.0.0:
-    resolution: {integrity: sha512-wx7bOMmEl8bY5WPaXTGsK8YxPLoFiUiDg+m+lBACA1QGcagj3sUyxkX0F+W/Nmn4MHH7G4sXBekpYWRxQE2eHg==}
-    dependencies:
-      '@types/unist': 2.0.6
-      unist-util-stringify-position: 3.0.3
-      vfile-message: 4.0.1
     dev: false
 
   /vite@4.3.9:
